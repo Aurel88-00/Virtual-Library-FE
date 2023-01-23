@@ -7,7 +7,7 @@ import { Book } from '../../models/book.model';
 import { useCreateBookMutation, useUpdateBookByIdMutation } from '../../state/services/bookApi';
 
 interface HomePageProps {
-    children?: JSX.Element | Array<JSX.Element>
+    children?: any
 }
 
 const { Content } = Layout;

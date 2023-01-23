@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom'
 
 
 interface PrivateRouteProps {
-    children?: JSX.Element | Array<JSX.Element>;
+    children?: any;
     element: any;
 }
 

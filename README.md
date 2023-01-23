@@ -4,6 +4,7 @@
 3. Run the command `npm install --legacy-peer-deps`, to avoid any problem that might arise from possible version mismatch between the npm packages used in the app.
 4. Run the command npm run start.
 5. The app will be up and running in your local machine.
+
 `Note` You should open the backend of this project in order to access the necessary data.
 
 ## App Overview

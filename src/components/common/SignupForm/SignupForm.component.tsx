@@ -4,7 +4,7 @@ import { useSignupMutation } from '../../../state/services/authApi';
 import { LockOutlined } from '@ant-design/icons';
 
 interface SignupFormProps {
-    children?: JSX.Element | Array<JSX.Element>
+    children?: any;
     onSignup: (payload: {email: string, name: string, password: string}) => void;
     isLoading: boolean;
 }
